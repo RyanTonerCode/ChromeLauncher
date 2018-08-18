@@ -74,12 +74,11 @@ namespace ChromeLauncher
 
                     cmu.RenderMode = ToolStripRenderMode.System;
 
-                    cmu.Items.Add(CreateMenuItem("Launch Social", (object sender, EventArgs e) => LaunchChrome("1")));
-                    cmu.Items.Add(CreateMenuItem("Launch Personal", (object sender, EventArgs e) => LaunchChrome("2")));
-                    cmu.Items.Add(CreateMenuItem("Launch Wooster", (object sender, EventArgs e) => LaunchChrome("3")));
-                    cmu.Items.Add(CreateMenuItem("Launch Test", (object sender, EventArgs e) => LaunchChrome("4")));
-                    cmu.Items.Add(CreateMenuItem("Launch Fairfield", (object sender, EventArgs e) => LaunchChrome("5")));
-                    cmu.Items.Add(CreateMenuItem("Launch Self-Help", (object sender, EventArgs e) => LaunchChrome("8")));
+                    cmu.Items.Add(CreateMenuItem("Launch NAME", (object sender, EventArgs e) => LaunchChrome("1")));
+                    cmu.Items.Add(CreateMenuItem("Launch NAME", (object sender, EventArgs e) => LaunchChrome("2")));
+                    //...
+                    //REPEAT AS DESIRED!
+
                     cmu.Items.Add(CreateMenuItem("Quit ChromeLauncher", Exit));
                 }
 
